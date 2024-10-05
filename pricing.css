@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #f5771b;
+    --secondary: #00abf0;
+}
+
+body {
+    background: rgb(140, 140, 176);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem; 
+}
+
+.Pricing-plan {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(161, 105, 105); /* Invert text color to the previous background color */
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255); 
+    border-collapse: collapse; 
+    padding: 5px;
+}
+
+img {
+    border: 5px dotted #3f697a; 
+    max-width: 500px;
+}
